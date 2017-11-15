@@ -1,4 +1,6 @@
 Final Project for CECS 453 Mobile Application Development
-Choices
-  1. Open Classroom
-  2. Home Automation app
+
+
+Anonymous Classroom
+
+Goal: Create a anonymous groupchat using android where csulb students can discuss about the course. 
