@@ -5,12 +5,21 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.PopupMenu;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
 
 /**
  * Created by johnkmnguyen on 11/16/17.
@@ -25,10 +34,14 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.d("s91", "hi");
+         String[] className = {"CECS 453", "CECS 326", "EE 381", "CECS 453", "CECS 326", "EE 381", "CECS 453", "CECS 326", "EE 381"};
+        //String[] className;
 
         // Create list for the existing classes
+
         ListView list;
-        final String[] className = {"CECS 453", "CECS 326", "EE 381", "CECS 453", "CECS 326", "EE 381", "CECS 453", "CECS 326", "EE 381"};
+
 
         // Calling the custom constructor
         CustomListAdapter adapter = new CustomListAdapter(this, className);
@@ -75,4 +88,7 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+
 }
+
+
