@@ -1,8 +1,11 @@
 package john.anonchatroom;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -90,6 +93,21 @@ public class SpecificClass extends AppCompatActivity
 
         // Set up the list using the adapter from the CustomListAdapter
         list.setAdapter(adapter);
+
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, final int position, long id)
+            {
+                //Create intent
+                // parameter is from which activity to which
+                Intent intent = new Intent(getApplicationContext(),Messages.class);
+                //Send the catagory
+                intent.putExtra("position", Integer.toString(position));
+                startActivity(intent);
+            }
+        });
 
 
     }

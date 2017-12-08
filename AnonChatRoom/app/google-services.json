@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "920823710704",
+    "firebase_url": "https://anonchatroom.firebaseio.com",
+    "project_id": "anonchatroom",
+    "storage_bucket": "anonchatroom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920823710704:android:7e39dd3841987134",
+        "android_client_info": {
+          "package_name": "john.anonchatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920823710704-njq5e4dmpmh90d8gtle6n7opuu1drg9o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "john.anonchatroom",
+            "certificate_hash": "93969c612a346de1d5b8570e1a75d4b0b8bd4fdf"
+          }
+        },
+        {
+          "client_id": "920823710704-llqln54e23k62nu2rhmvjln2kokc9pet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOgoxuQ7qa4ZDB45b7U6YB-FzGlROymdU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920823710704-llqln54e23k62nu2rhmvjln2kokc9pet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

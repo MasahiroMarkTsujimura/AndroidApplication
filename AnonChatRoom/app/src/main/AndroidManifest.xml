@@ -19,6 +19,7 @@
 
         <activity android:name=".Catagories" />
         <activity android:name=".SpecificClass" />
+        <activity android:name=".Messages" />
     </application>
 
 </manifest>
