@@ -1,33 +1,35 @@
 {
   "project_info": {
-    "project_number": "679573537128",
-    "project_id": "firebase-anonchatroom"
+    "project_number": "819205846744",
+    "firebase_url": "https://anonchat-32cda.firebaseio.com",
+    "project_id": "anonchat-32cda",
+    "storage_bucket": "anonchat-32cda.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:679573537128:android:7e39dd3841987134",
+        "mobilesdk_app_id": "1:819205846744:android:7e39dd3841987134",
         "android_client_info": {
           "package_name": "john.anonchatroom"
         }
       },
       "oauth_client": [
         {
-          "client_id": "679573537128-lkdbf023a3stjn40adkr3gddhg983hgd.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "679573537128-i6t0r1pute2cb9od094va7q0p3ts2npb.apps.googleusercontent.com",
+          "client_id": "819205846744-b8jmekubn9pfe849t9pkc439ok7o3m6l.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "john.anonchatroom",
-            "certificate_hash": "e15d3d08a1b2eba242ecf704c87f7701bf6e5f37"
+            "certificate_hash": "4eb095acb11a9ffd146195b665fbb1514b557a89"
           }
+        },
+        {
+          "client_id": "819205846744-jvehegpuk9ldfdg1dgcpjjf1mi7g4op2.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBy64tfBsO4dS4qB09L2EaZAd2lO10LHWY"
+          "current_key": "AIzaSyDiK6HdZE3z5R0LTGwc4LiYYzqalL05cRQ"
         }
       ],
       "services": {
@@ -35,11 +37,16 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819205846744-jvehegpuk9ldfdg1dgcpjjf1mi7g4op2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
-          "status": 1
+          "status": 2
         }
       }
     }

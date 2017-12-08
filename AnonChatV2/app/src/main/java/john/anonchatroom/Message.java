@@ -1,9 +1,5 @@
 package john.anonchatroom;
 
-/**
- * Created by johnkmnguyen on 12/7/17.
- */
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -61,6 +57,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Message extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 
+    public static String MESSAGES_CHILD = "messages";
     public static class MessageViewHolder extends RecyclerView.ViewHolder {
         TextView messageTextView;
         ImageView messageImageView;
@@ -77,11 +74,11 @@ public class Message extends AppCompatActivity implements GoogleApiClient.OnConn
     }
 
     private static final String TAG = "MainActivity";
-    public static final String MESSAGES_CHILD = "messages";
+
     private static final int REQUEST_INVITE = 1;
     private static final int REQUEST_IMAGE = 2;
     private static final String LOADING_IMAGE_URL = "https://www.google.com/images/spin-32.gif";
-    public static final int DEFAULT_MSG_LENGTH_LIMIT = 10;
+    public static final int DEFAULT_MSG_LENGTH_LIMIT = 140;
     public static final String ANONYMOUS = "anonymous";
     private static final String MESSAGE_SENT_EVENT = "message_sent";
     private String mUsername;
@@ -109,11 +106,14 @@ public class Message extends AppCompatActivity implements GoogleApiClient.OnConn
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.message_main);
         mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         // Set default username is anonymous.
         mUsername = ANONYMOUS;
+        Intent intent = getIntent();
 
+
+        MESSAGES_CHILD =  intent.getStringExtra("dbclass");
         // Initialize Firebase Auth
         mFirebaseAuth = FirebaseAuth.getInstance();
         mFirebaseUser = mFirebaseAuth.getCurrentUser();
@@ -123,15 +123,13 @@ public class Message extends AppCompatActivity implements GoogleApiClient.OnConn
             finish();
             return;
         }
-        else
-            {
+        else {
                 mUsername = mFirebaseUser.getDisplayName();
-                if (mFirebaseUser.getPhotoUrl() != null)
-                {
+                if (mFirebaseUser.getPhotoUrl() != null)                {
                     mPhotoUrl = mFirebaseUser.getPhotoUrl().toString();
-                    startActivity(new Intent(this, MainActivity.class));
-                    finish();
-                    return;
+//                    startActivity(new Intent(this, Message.class));
+//                    finish();
+//                    return;
                 }
             }
 
@@ -235,7 +233,7 @@ public class Message extends AppCompatActivity implements GoogleApiClient.OnConn
                 }
 
 
-                viewHolder.messengerTextView.setText(friendlyMessage.getName());
+                //viewHolder.messengerTextView.setText();
                 if (friendlyMessage.getPhotoUrl() == null) {
                     viewHolder.messengerImageView.setImageDrawable(ContextCompat.getDrawable(Message.this,
                             R.drawable.ic_account_circle_black_36dp));
