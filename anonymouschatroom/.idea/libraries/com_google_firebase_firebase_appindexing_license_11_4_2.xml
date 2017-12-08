@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.google.firebase:firebase-appindexing-license-11.4.2">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-license-11.4.2.aar/c1f555f3bbf9c0c4cc9d3aa8e1241583/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-license-11.4.2.aar/c1f555f3bbf9c0c4cc9d3aa8e1241583/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-license-11.4.2.aar/0d9af841415222096c96635e4863de03/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-license-11.4.2.aar/0d9af841415222096c96635e4863de03/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
