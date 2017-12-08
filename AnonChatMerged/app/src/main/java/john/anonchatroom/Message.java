@@ -61,20 +61,20 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Message extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 
-public static class MessageViewHolder extends RecyclerView.ViewHolder {
-    TextView messageTextView;
-    ImageView messageImageView;
-    TextView messengerTextView;
-    CircleImageView messengerImageView;
+    public static class MessageViewHolder extends RecyclerView.ViewHolder {
+        TextView messageTextView;
+        ImageView messageImageView;
+        TextView messengerTextView;
+        CircleImageView messengerImageView;
 
-    public MessageViewHolder(View v) {
-        super(v);
-        messageTextView = (TextView) itemView.findViewById(R.id.messageTextView);
-        messageImageView = (ImageView) itemView.findViewById(R.id.messageImageView);
-        messengerTextView = (TextView) itemView.findViewById(R.id.messengerTextView);
-        messengerImageView = (CircleImageView) itemView.findViewById(R.id.messengerImageView);
+        public MessageViewHolder(View v) {
+            super(v);
+            messageTextView = (TextView) itemView.findViewById(R.id.messageTextView);
+            messageImageView = (ImageView) itemView.findViewById(R.id.messageImageView);
+            messengerTextView = (TextView) itemView.findViewById(R.id.messengerTextView);
+            messengerImageView = (CircleImageView) itemView.findViewById(R.id.messengerImageView);
+        }
     }
-}
 
     private static final String TAG = "MainActivity";
     public static final String MESSAGES_CHILD = "messages";
@@ -231,10 +231,10 @@ public static class MessageViewHolder extends RecyclerView.ViewHolder {
 
                 viewHolder.messengerTextView.setText(friendlyMessage.getName());
                 if (friendlyMessage.getPhotoUrl() == null) {
-                    viewHolder.messengerImageView.setImageDrawable(ContextCompat.getDrawable(MainActivity.this,
+                    viewHolder.messengerImageView.setImageDrawable(ContextCompat.getDrawable(Message.this,
                             R.drawable.ic_account_circle_black_36dp));
                 } else {
-                    Glide.with(MainActivity.this)
+                    Glide.with(Message.this)
                             .load(friendlyMessage.getPhotoUrl())
                             .into(viewHolder.messengerImageView);
                 }
@@ -352,7 +352,7 @@ public static class MessageViewHolder extends RecyclerView.ViewHolder {
     }
 
     private void putImageInStorage(StorageReference storageReference, Uri uri, final String key) {
-        storageReference.putFile(uri).addOnCompleteListener(MainActivity.this,
+        storageReference.putFile(uri).addOnCompleteListener(Message.this,
                 new OnCompleteListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
@@ -399,7 +399,7 @@ public static class MessageViewHolder extends RecyclerView.ViewHolder {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_menu, menu);
+        inflater.inflate(R.menu.menu_two, menu);
         return true;
     }
 
@@ -474,3 +474,5 @@ public static class MessageViewHolder extends RecyclerView.ViewHolder {
                 InputFilter.LengthFilter(friendly_msg_length.intValue())});
         Log.d(TAG, "FML is: " + friendly_msg_length);
     }
+
+}

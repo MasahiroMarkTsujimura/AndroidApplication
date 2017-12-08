@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+        <activity android:name=".Message" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,7 +30,7 @@
         <activity android:name=".Catagories" />
         <activity android:name=".SpecificClass" />
         <activity android:name=".SignInActivity" />
-        <activity android:name=".Message" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
