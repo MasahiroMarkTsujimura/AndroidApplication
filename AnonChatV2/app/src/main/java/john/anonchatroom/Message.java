@@ -122,12 +122,18 @@ public class Message extends AppCompatActivity implements GoogleApiClient.OnConn
             startActivity(new Intent(this, SignInActivity.class));
             finish();
             return;
-        } else {
-            mUsername = mFirebaseUser.getDisplayName();
-            if (mFirebaseUser.getPhotoUrl() != null) {
-                mPhotoUrl = mFirebaseUser.getPhotoUrl().toString();
-            }
         }
+        else
+            {
+                mUsername = mFirebaseUser.getDisplayName();
+                if (mFirebaseUser.getPhotoUrl() != null)
+                {
+                    mPhotoUrl = mFirebaseUser.getPhotoUrl().toString();
+                    startActivity(new Intent(this, MainActivity.class));
+                    finish();
+                    return;
+                }
+            }
 
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .enableAutoManage(this /* FragmentActivity */, this /* OnConnectionFailedListener */)
