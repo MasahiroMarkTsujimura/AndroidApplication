@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "819205846744",
+    "firebase_url": "https://anonchat-32cda.firebaseio.com",
+    "project_id": "anonchat-32cda",
+    "storage_bucket": "anonchat-32cda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819205846744:android:7e39dd3841987134",
+        "android_client_info": {
+          "package_name": "john.anonchatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819205846744-rq0orjd4gncslubr31om65ceg1du2qhi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "john.anonchatroom",
+            "certificate_hash": "e15d3d08a1b2eba242ecf704c87f7701bf6e5f37"
+          }
+        },
+        {
+          "client_id": "819205846744-s0jsuamjdfllvlvuqii1v903egma0tcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "john.anonchatroom",
+            "certificate_hash": "d32f94ed050e815e5c22d6421d2d90147649b189"
+          }
+        },
+        {
+          "client_id": "819205846744-rk6rmqr3hc5atpa5muotn8bcsfr5o37o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "john.anonchatroom",
+            "certificate_hash": "110827fd5c48d33512cc4a793ce1d7f4d1900cd0"
+          }
+        },
+        {
+          "client_id": "819205846744-5r3lkepk8l8b6qho0o593ho79fh5d1el.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "john.anonchatroom",
+            "certificate_hash": "93969c612a346de1d5b8570e1a75d4b0b8bd4fdf"
+          }
+        },
+        {
+          "client_id": "819205846744-b8jmekubn9pfe849t9pkc439ok7o3m6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "john.anonchatroom",
+            "certificate_hash": "4eb095acb11a9ffd146195b665fbb1514b557a89"
+          }
+        },
+        {
+          "client_id": "819205846744-jvehegpuk9ldfdg1dgcpjjf1mi7g4op2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiK6HdZE3z5R0LTGwc4LiYYzqalL05cRQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819205846744-jvehegpuk9ldfdg1dgcpjjf1mi7g4op2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

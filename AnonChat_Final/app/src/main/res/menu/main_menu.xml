@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/moreclasses"
+        android:icon="?android:attr/fastScrollThumbDrawable"
+        android:title="All Classes"
+        />
+    <item
+        android:id="@+id/signout"
+        android:icon="?android:attr/fastScrollThumbDrawable"
+        android:title="Sign Out"
+        />
+
+
+</menu>
