@@ -30,3 +30,19 @@ John Nguyen
   -Backend readjustment
 - Debugging functionalities (6 Hours)
 - Gradle debugging (3 Hours)
+
+Il Won Son
+- Under Milestone 1:
+	-Implemented Project called: anonymouschatroom (15 Hours)
+		*Allow users to sign in with Google account
+		*Sync data using the Firebase Real-time Database
+		*Messaging - Send/Receive
+		*SignIn and Chat Room layouts/Resources
+		*Debugging login authentication
+		*Firebase setup/debugging
+		*Self-taught materials
+		*Documentation
+- Merging project with frontend and backend (7 Hours)
+- Debugging Gradle (3 Hours)
+- Helped prepare PowerPoint (1 Hour)
+
