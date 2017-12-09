@@ -26,8 +26,8 @@ John Nguyen
 - Menu
   - Button functionality 
 - Merged the front end and the back end together
-  -Front end readjustment
-  -Backend readjustment
+  - Front end readjustment
+  - Backend readjustment
 - Debugging functionalities 
 - Gradle debugging 
 
