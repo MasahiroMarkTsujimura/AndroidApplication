@@ -1,9 +1,9 @@
 Final Project for CECS 453 Mobile Application Development
 
 
-Anonymous Classroom
+Anonymous Chat
 
-Goal: Create a anonymous groupchat using android where csulb students can discuss about the course. 
+Goal: Create an anonymous groupchat using android for CSULB students to discuss about about courses. 
 
 
 Contributions:
