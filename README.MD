@@ -33,15 +33,15 @@ John Nguyen
 
 Il Won Son
 - Under Milestone 1:
-	-Implemented Project called: anonymouschatroom 
-		*Allow users to sign in with Google account
-		*Sync data using the Firebase Real-time Database
-		*Messaging - Send/Receive
-		*SignIn and Chat Room layouts/Resources
-		*Debugging login authentication
-		*Firebase setup/debugging
-		*Self-taught materials
-		*Documentation
+	-Implemented Project called: anonymouschatroom
+		-Allow users to sign in with Google account
+		-Sync data using the Firebase Real-time Database
+		-Messaging - Send/Receive
+		-SignIn and Chat Room layouts/Resources
+		-Debugging login authentication
+		-Firebase setup/debugging
+		-Self-taught materials
+		-Documentation
 - Merging project with frontend and backend 
 - Debugging Gradle 
 - Helped prepare PowerPoint 
