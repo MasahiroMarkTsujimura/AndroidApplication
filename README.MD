@@ -21,15 +21,15 @@ Debugging Login Functionality (3 Hours)
 
 
 John Nguyen
-- Created the front end of the project and architecture layout design (8 Hours)
+- Created the front end of the project and architecture layout design 
   - ListView, RecycleView
 - Menu
   - Button functionality 
-- Merged the front end and the back end together (6 Hours)
+- Merged the front end and the back end together
   -Front end readjustment
   -Backend readjustment
-- Debugging functionalities (6 Hours)
-- Gradle debugging (3 Hours)
+- Debugging functionalities 
+- Gradle debugging 
 
 Il Won Son
 - Under Milestone 1:
