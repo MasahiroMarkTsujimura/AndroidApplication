@@ -21,15 +21,15 @@ Syed Hussain
 
 
 John Nguyen
-- Created the front end of the project and architecture layout design 
+- Created the front end of the project and architecture layout design (8 Hours)
   - ListView, RecycleView
 - Menu
   - Button functionality 
-- Merged the front end and the back end together
+- Merged the front end and the back end together (6 Hours)
   - Front end readjustment
   - Backend readjustment
-- Debugging functionalities 
-- Gradle debugging 
+- Debugging functionalities (5 Hours)
+- Gradle debugging (3 Hours)
 
 Il Won Son
 - Under Milestone 1: (15 Hours)
