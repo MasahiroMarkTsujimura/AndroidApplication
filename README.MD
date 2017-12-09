@@ -47,7 +47,7 @@ Il Won Son
 - Helped prepare PowerPoint (1 Hours)
 
 Mark Tsujimura
-- Fixing and debugging code and issues (10 Hours) 
+- Fixing and debugging code and issues (12 Hours) 
 	- Fixed the issue that caused the user to be returned to main menu after clicking course number
 	- Fixed issue caused by merging teammate’s code (6 Hours)
 	- Solved the issue with not being able to use firebase authentication
