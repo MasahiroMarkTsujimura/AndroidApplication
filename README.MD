@@ -18,3 +18,15 @@ Creating tables for each room (.5 Hours)
 Firebase Auth (DB rules, SHA1 json file) (3 Hours)
 Hiding the user's name in the messages activity for anonymity. (.5 Hours)
 Debugging Login Functionality (3 Hours)
+
+
+John Nguyen
+- Created the front end of the project and architecture layout design (8 Hours)
+  - ListView, RecycleView
+- Menu
+  - Button functionality 
+- Merged the front end and the back end together (6 Hours)
+  -Front end readjustment
+  -Backend readjustment
+- Debugging functionalities (6 Hours)
+- Gradle debugging (3 Hours)
